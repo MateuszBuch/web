@@ -21,6 +21,8 @@ Table of Content
     align-items: center;
     background: url("bacgroyung.png") center no-repeat;
     background-size: cover;
+
+    justify-content: space-between;
 }
 
 .narro{
@@ -110,7 +112,6 @@ Table of Content
 		Img Bacground
 ----------------------------------- */
 
-
 .bacground-text{
     width: 770px;
     height: 400px;
@@ -126,8 +127,8 @@ Table of Content
 .tekst2{
     font-size: 12px;
     color: white;
-    font-family: archivo-black, sans-serif;
-    font-weight: 600;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
 }
 
 .bg-text-color{
@@ -165,8 +166,9 @@ Table of Content
     border-top: 2px solid #FFA7AB;
     border-left: 2px solid #FFA7AB;
 }
+
 .long-arrow-right{
-transform: rotate(135deg);
+    transform: rotate(135deg);
 }
 
 .long-arrow-right::after
@@ -179,6 +181,57 @@ transform: rotate(135deg);
     transform: rotate(-45deg) translate(15px, 4px);
 }
 
-.xd{
+.arrow{
     transform: translate(27%, -350%);
+}
+
+.quick-menu{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 25px 0px 0px;
+
+    width: 65%;
+    height: 100px;
+    margin-right: 35%;
+}
+
+.quick-social{
+    color: #FF5C63;
+    border-radius: 0px 25px 0px 0px;
+    width: 10%;
+    height: 100px;
+    margin-right: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.quick-menu-slid{
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.5;
+    font-family: Poppins;
+    font-size: 13px;
+
+}
+
+.mrg-left{
+    margin-left: 10%;
+}
+
+.pst{
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+}
+
+.radi{
+    background-color: #FF5C63;
+    border-radius: 0px 25px 0px 0px;
+    color: white;
+
+    filter: drop-shadow(0 0 15px #ff5c6493)  contrast(1) brightness(1);
+    transition: .5s;
 }
