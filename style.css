@@ -7,6 +7,7 @@ Table of Content
 	- Header
     - Img Bacground
     - Main
+    - Main 2
 
 
 /* -----------------------------------
@@ -353,4 +354,45 @@ Table of Content
     font-family: poppins, sans-serif;
     font-weight: 400;
     margin-left: 3vh;
+}
+
+/* -----------------------------------
+		Main 2
+----------------------------------- */
+
+.main-2{
+    margin-top: 5%;
+    width: 100%;
+    height: 100vh;
+    padding: 3%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+
+    background-color: red;
+
+    background: url("main2.png") center no-repeat;
+}
+
+.tarek{
+    display: flex;
+    width: 50vh;
+    height: 20vh;
+    border-radius: 2vh;
+    background-color: rgb(238, 238, 238);
+
+    transform: translate(-50%, 100%);
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tak{
+    font-size: 20px;
+    
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
