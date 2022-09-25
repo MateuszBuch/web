@@ -1,18 +1,19 @@
 /* -----------------------------------------------
-				CSS Styles
+        CSS Styles
 --------------------------------------------------
 
 Table of Content
 
-	- Header
+  - Header
     - Img Bacground
     - Main
     - Main 2
     - Main 3
+    - Main 4
 
 
 /* -----------------------------------
-		Header
+    Header
 ----------------------------------- */
 
 .header-main{
@@ -132,7 +133,7 @@ Table of Content
 }
 
 /* -----------------------------------
-		Img Bacground
+    Img Bacground
 ----------------------------------- */
 
 .bacground-text{
@@ -259,7 +260,7 @@ Table of Content
 }
 
 /* -----------------------------------
-		Main
+    Main
 ----------------------------------- */
 
 .main{
@@ -357,7 +358,7 @@ Table of Content
 }
 
 /* -----------------------------------
-		Main 2
+    Main 2
 ----------------------------------- */
 
 .main-2{
@@ -398,11 +399,10 @@ Table of Content
 }
 
 /* -----------------------------------
-		Main 3
+    Main 3
 ----------------------------------- */
 
 .main-3{
-    margin-top: 5%;
     width: 100%;
     height: 100vh;
     padding-left: 10%;
@@ -452,7 +452,7 @@ Table of Content
     color: white;
 }
 
-.zxc{
+.ssc.logo{
     padding-top: 30px;
     padding-right: 20px;
 }
@@ -464,3 +464,295 @@ Table of Content
     font-weight: 400;
     padding-top: 40px;
 }
+
+/* -----------------------------------
+    Main 4
+----------------------------------- */
+
+.main-4{
+    margin-top: 5%;
+
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+
+.toggle {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-btn {
+    margin: 0 1rem;
+}
+.checkbox {
+    display: none;
+}
+
+.sub {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50px;
+    height: 1.6rem;
+    width: 3.3rem;
+    border-radius: 1.6rem;
+    padding: 0.3rem;
+}
+
+.circle {
+    background-color: rgb(253, 0, 0);
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 50%;
+    border: solid #AF1018 2px;
+    background-image: linear-gradient(to right, #AF1018, #b46f73);
+}
+
+.checkbox:checked + .sub {
+    justify-content: flex-end;
+}
+
+.cards {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(170, 14, 14);
+    color: hsl(233, 13%, 49%);
+    border-radius: 0.8rem;
+}
+
+.cards .card.active {
+  border-radius: 20px;
+  height: 60vh;
+  width: 40vh;
+  background-color: #FF1E1E;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.card.shadow {
+  border-radius: 20px;
+  height: 50vh;
+  width: 35vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: solid white 1px;
+}
+
+.cards-text{
+    margin-top: 6vh;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.zxcv{
+    letter-spacing: 0.5vh;
+    display: flex;
+}
+
+.ribbon{
+    background-color: #E35C61;
+    width: 5vh;
+    height: 6vh;
+    position: relative;
+    transform: translate(-200%, 0%);
+}
+
+.ribbon:before{
+    content: "";
+    position: absolute;
+    bottom: -2.4em;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 2.5em solid #E35C61;
+    border-right: 2.5em solid transparent;
+}
+.ribbon:after{
+    content: "";
+    position: absolute;
+    bottom: -2.4em;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 2.5em solid #E35C61;
+    border-left: 2.5em solid transparent;
+}
+
+.cards-box{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.cards-text-price{
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cards-text-price2{
+    margin-top: -2vh;
+    font-size: 12px;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    margin-bottom: 5vh;
+}
+
+.cards-text-desc{
+  font-size: 9px;
+  color: white;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.cards-box-desc{
+  display: flex;
+}
+
+.checkmark {
+  margin-top: -1vh;
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 20px;
+  width: 10px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+
+.duo {
+  border-bottom: 4px solid #EE2227;
+  border-right: 4px solid #EE2227;
+}
+
+.button-box{
+  font-size: 15px;
+  color: white;
+  border: solid #ffffff 1px;
+  margin-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  background-color: #F94445;
+}
+
+.button-box2{
+  font-size: 15px;
+  color: white;
+  border: solid #ffffff 1px;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  background-color: #FA1823;
+}
+
+.marg-text{
+  color: black;
+}
+.marg{
+  margin-top: 10px;
+}
+
+@media (max-width: 280px) {
+  ul {
+    margin: 1rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+  .cards {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    transform: scale(0.8);
+    margin-bottom: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+  ul {
+    margin: 20px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}
+@media (min-width: 414px) and (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}
+@media (min-width: 768px) and (max-width: 1046px) {
+  .cards {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  .cards .card.active {
+    transform: scale(1);
+  }
+}
+
+
+
