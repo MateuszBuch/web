@@ -24,8 +24,8 @@ Table of Content
     flex-direction: column;
     align-items: center;
     background: url("bacgroyung.png") center no-repeat;
-    background-size: cover;
-
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     justify-content: space-between;
 }
 
@@ -42,8 +42,8 @@ Table of Content
     width: 25%;
 }
 
-#logo{
-    width: 40%;
+.logo{
+    width: 150%;
     height: auto;
 }
 
@@ -276,7 +276,7 @@ Table of Content
 }
 
 .narro-main{
-    width: 75%;
+    width: 80%;
     margin-top: 5%;
 }
 
@@ -410,8 +410,8 @@ Table of Content
     flex-direction: row;
     align-items: center;
     background: url(main-3.png) center no-repeat;
-    background-size: cover;
-
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .boxer{
@@ -615,11 +615,11 @@ Table of Content
 }
 
 .cards-text-desc{
-  font-size: 9px;
-  color: white;
-  font-family: poppins, sans-serif;
-  font-weight: 400;
-  margin-left: 20px;
+    font-size: 9px;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
 }
 
 .cards-box-desc{
@@ -627,32 +627,32 @@ Table of Content
 }
 
 .checkmark {
-  margin-top: -1vh;
-  display: inline-block;
-  transform: rotate(45deg);
-  height: 20px;
-  width: 10px;
-  border-bottom: 4px solid white;
-  border-right: 4px solid white;
+    margin-top: -1vh;
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 20px;
+    width: 10px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
 }
 
 
 .duo {
-  border-bottom: 4px solid #EE2227;
-  border-right: 4px solid #EE2227;
+    border-bottom: 4px solid #EE2227;
+    border-right: 4px solid #EE2227;
 }
 
 .button-box{
-  font-size: 15px;
-  color: white;
-  border: solid #ffffff 1px;
-  margin-top: 50px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 30px;
-  background-color: #F94445;
+    font-size: 15px;
+    color: white;
+    border: solid #ffffff 1px;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    background-color: #F94445;
 }
 
 .button-box2{
@@ -662,10 +662,10 @@ Table of Content
   margin-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 30px;
-  background-color: #FA1823;
+  background-color: #F41320;
 }
 
 .marg-text{
@@ -754,5 +754,127 @@ Table of Content
   }
 }
 
+/* -----------------------------------
+    Main 5
+----------------------------------- */
+
+.main-5 {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    background: url(MaskGroup.png) center no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column-reverse;
+}
+
+.main-5-info{
+    width: 75vh;
+    height: 45vh;
+    background-color: white;
+}
+
+.main-5-text{
+    margin-top: 5%;
+    margin-left: 27%;
+    margin-right: 10%;
+}
+
+.text-head2{
+    font-family: poppins, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footer-main{
+    width: 100%;
+    height: 35vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+
+    justify-content: space-between;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.footer-box{
+    width: 33%;
+    height: 20vh;
+}
+
+.footer-box2 {
+    width: 33%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 40%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    padding: 0.5vh;
+}
 
 
+
+
+
+.custom-search {
+    position: relative;
+    width: 400px;
+}
+.custom-search-input {
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+}
+.custom-search-botton {
+    position: absolute;
+    right: 3px;     
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background-color: #F41320;
+    color: white;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    z-index: 2;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.24);
+  }
